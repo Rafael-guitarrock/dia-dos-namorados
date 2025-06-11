@@ -41,6 +41,20 @@ a.musica-link:hover {
     background-color: #ffe6eb;
 }
 
+audio {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 20px;
+    outline: none;
+}
+
+#playerContainer {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    display: contents;}
+
 #drag-container,
 #spin-container {
     position: relative;
